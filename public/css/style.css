@@ -4,7 +4,7 @@ GENERAL
 ========================================================================== */
 
 body  * {  /*font-weight: normal !important;*/ } /* lebo fugue */
-body {background:#fff;font: 12px 'OpenSans', sans-serif;color: #555;text-rendering: optimizeLegibility; font-weight: normal !important;}
+body {background:#fff;font: 14px 'OpenSans', sans-serif;color: #555;text-rendering: optimizeLegibility; font-weight: normal !important;}
 ::-moz-selection {background: #000001;color: white;}
 ::selection {background: #000001;color: white;}
 .hidden {display: none;}
@@ -17,7 +17,7 @@ body {background:#fff;font: 12px 'OpenSans', sans-serif;color: #555;text-renderi
 
 /*button*/
 a.button {cursor:pointer;color:#fff;position:relative;display:inline-block;font-weight:400;text-decoration:none;text-align:center;display:block;font-size:13px;background-color:#007fc5;height:20px;padding:11px 10px 9px 10px;max-width:300px;border:0;font-weight: bold !important; font-family:"Tahoma";-webkit-transition: background-color 0.4s ease;-moz-transition: background-color 0.5s ease;-ms-transition: background-color 0.5s ease;-o-transition: background-color 0.5s ease;transition: background-color 0.5s ease;}
-a.button:hover {text-decoration: none; background-color: #003d6b!important;/* Old browsers */
+a.button:hover {text-decoration: none;  background-color: #003d6b!important;/* Old browsers */
  -webkit-transition: background-color 0.4s ease;-moz-transition: background-color 0.5s ease;-ms-transition: background-color 0.5s ease;-o-transition: background-color 0.5s ease;transition: background-color 0.5s ease;color:#fff;}
 
 /*==========================================================================
@@ -33,7 +33,7 @@ h5 {font-size: 16px;}
 h6 {font-size: 14px;}
 h1.color,h2.color,h3.color,h4.color,h5.color,h6.color{color:#000001;}
 h1.white,h2.white,h3.white,h4.white,h5.white,h6.white{color:#FFF;}
-p{margin-bottom: 10px;font-size:12px;line-height:21px;color:#777;}
+p{margin-bottom: 10px;font-size:14px;line-height:21px;color:#777;}
 p.white{color:#FFF;}
 a, a > * {text-decoration: none;color:#007fc5;-webkit-transition: all 0.4s ease;-moz-transition: all 0.5s ease;-ms-transition: all 0.5s ease;-o-transition: all 0.5s ease;transition: all 0.5s ease;}
 a:hover, a > *:hover {color: #003d6b; text-decoration: underline; -webkit-transition: all 0.4s ease;-moz-transition: all 0.5s ease;-ms-transition: all 0.5s ease;-o-transition: all 0.5s ease;transition: all 0.5s ease;}
@@ -63,12 +63,12 @@ CONTENT
 .separator-title span.separator-subheader{color:#ccc;font-font-weight: bold !important; family: 'Tahoma', sans-serif;font-weight:300;font-size:14px;padding-right:20px;position:absolute;top:22px;left:0px;padding-left:0px;}
 
 /*footer*/
-footer{background-color:#fff;width:100%;min-height:30px;font-size:12px;padding:0px 0px 0px 0px;color:#ccc;margin-top:0px;}
+footer{background-color:#fff;width:100%;min-height:30px;font-size:14px;padding:0px 0px 0px 0px;color:#ccc;margin-top:0px;}
 footer .footer-inside{text-align:center;margin:45px 0px 0px 0px;}
 footer .footer-inside.end{text-align:center;margin: 0px 0px 20px 0px;}
 footer .footer-border{border-top: dotted 1px #ccc;height:2px;width:100%;margin-top:0px;float:left;}
 footer .copyright{margin-top:0px;padding:13px 0px 0px 0px;height:26px;margin-bottom:10px;}
-.copyright p{/*color:#bbb;*/font-size:12px; text-align:center;}
+.copyright p{/*color:#bbb;*/font-size:14px; text-align:center;}
 footer .social-footer{margin-top:0px;padding:11px 0px 0px 0px;height:26px;margin-bottom:10px;}
 .footer-arrow{background-color:#FFF; width:100%; position:relative;}
 .footer-arrow:after {top: 100%;border: solid transparent;content: " ";height: 0;width: 0;position: absolute;pointer-events: none;}
@@ -129,14 +129,14 @@ OTHER
 .qHeader {
 	font-family: "OpenSans" !important;
 	font-weight: normal !important;
-	font-size: 12px !important;
+	font-size: 14px !important;
 }
 .RequiredMarker {
 	font-family: "OpenSans" !important;
 	font-weight: normal !important;
 	color: #d00;
 	top:7px;
-	font-size: 12px;
+	font-size: 14px;
 }
 .sTitle, .pTitle, #SampleSurveysFooter {display: none !important}
 
