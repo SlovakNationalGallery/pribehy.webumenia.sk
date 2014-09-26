@@ -128,7 +128,7 @@
                     <div id="surveyMonkeyInfo" class="eight columns">
                         <h5>Váš príbeh</h5>
                         <!-- <div><script src="https://www.surveymonkey.com/jsEmbed.aspx?sm=y2yCZIbeeUuiurya1qtXzw_3d_3d"> </script></div> -->
-                        <iframe id="sm_e_s" src="./survey.php" width="460" height="330" style="border:0px;overflow:hidden;height:580px;width:100%" frameborder="0" allowtransparency="true"></iframe>
+                        <iframe id="sm_e_s" src="./survey.php" width="460" height="330" style="border:0px;overflow:hidden;height:580px;width:100%" frameborder="0" allowtransparency="true" scrolling="no" seamless="seamless"></iframe>
                     </div>
 
 
