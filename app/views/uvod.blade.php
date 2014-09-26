@@ -168,21 +168,17 @@
     <!-- Retina Display -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> 
     <script src="js/retina.js"></script>
-    <script type="text/javascript">
-        var cssLink = document.createElement("link") 
-        cssLink.href = "/css/style.css"; 
-        cssLink.rel = "stylesheet"; 
-        cssLink.type = "text/css"; 
-        // frames['sm_e_s'].document.body.appendChild(cssLink);
-        // document.getElementById("sm_e_s").contentDocument(cssLink);
-    </script>
 
     <!-- magnific-popup  -->
     <script src="js/jquery.magnific-popup.min.js"></script>
     <script>
         $(document).ready(function() {
             $('#sm_e_s').load(function(){
-                $("#sm_e_s").contents().find("#NextButton").val('Odoslať');
+                $("#sm_e_s").contents().find("#NextButton").val('Odoslať');                
+                var $head = $("#sm_e_s").contents().find("head");                
+                $head.append($("<link/>", 
+                    { rel: "stylesheet", href: "{{ URL::to('css/style.css') }}", type: "text/css" }
+                ));                    
                 // var iheight = $("#sm_e_s").contents().find("#frmS").innerHeight;
                 // $("#sm_e_s").css('height', iheight);
             });            
