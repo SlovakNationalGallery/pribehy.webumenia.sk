@@ -13,7 +13,7 @@
     <meta property="og:title" content="Príbehy umenia" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="{{ URL::to('/') }}" />
-    <meta property="og:image" content="{{ URL::to('/images/og-image.jpg') }}" />
+    <meta property="og:image" content="{{ URL::to('/img/og-image.jpg') }}" />
 
     <!-- ========= 
     Favicons 
