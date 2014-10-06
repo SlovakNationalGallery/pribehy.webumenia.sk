@@ -1,14 +1,20 @@
 <!DOCTYPE HTML>
+<html lang="sk">
 <head>
     <!-- ========= 
     Title and Metas 
     ========= -->
     <meta charset="utf-8">
-    <title>Príbehy pre webumenia.sk - výzva pre verejnosť</title>
+    <title>Príbehy umenia</title>
     <meta name="keywords" content="sng, digitalizácia">
     <meta name="author" content="lab.SNG">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     
+    <meta property="og:title" content="Príbehy umenia" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="{{ URL::to('/') }}" />
+    <meta property="og:image" content="{{ URL::to('/images/og-image.jpg') }}" />
+
     <!-- ========= 
     Favicons 
     ========= -->
@@ -37,6 +43,7 @@
     <!-- ========= 
     CSS
     ========= -->
+    <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/skeleton.css">
     <link rel="stylesheet" href="css/style.css">
@@ -92,7 +99,7 @@
                    
                     <div class="eight columns">
                         <h5>Výzva pre verejnosť</h5>
-                        <p><a href="http://www.sng.sk" target="_blank">Slovenská národná galéria</a> pripravuje sériu dokumentov o výtvarných dielach zo slovenských zbierkotvorných galérií. Chceme ukázať, že umelecké diela sú nielen fyzickými artefaktmi, ale aj odrazom doby a kontextu v ktorom vznikli. Okrem výpovedí autorov a vlastníkov diel nás zaujímajú aj autentické a doteraz nezverejnené príbehy ľudí. Ak poznáte okolnosti vzniku diela, prípadne miesta a ľudí zobrazených na diele, podeľte sa s nami o svoj príbeh - tie najzaujímavejšie sa stanú súčasťou dokumentu, ďalšie budeme priebežne zverejňovať ako články na <a href="http://www.webumenia.sk" target="_blank">Webe umenia</a>.</p>
+                        <p><a href="http://www.sng.sk" target="_blank">Slovenská národná galéria</a> pripravuje sériu dokumentov o výtvarných dielach zo slovenských zbierkotvorných galérií. Chceme ukázať, že umelecké diela sú nielen fyzickými artefaktmi, ale aj odrazom doby a kontextu, v ktorom vznikli. Okrem výpovedí autorov a vlastníkov diel nás zaujímajú aj autentické a doteraz nezverejnené príbehy ľudí. Ak poznáte okolnosti vzniku diela, prípadne miesta a ľudí zobrazených na diele, podeľte sa s nami o svoj príbeh - tie najzaujímavejšie sa stanú súčasťou dokumentu, ďalšie budeme priebežne zverejňovať ako články na <a href="http://www.webumenia.sk" target="_blank">Webe umenia</a>.</p>
                         <p>
                         Môžete sa inšpirovať napríklad zbierkami <a href="http://webumenia.sk/web/guest/photo/-/staticresults?orderBy=RELEVANCE&page=1&items=28&query=&layout=gridLayout&images=true&searchFor=data" target="blank">fotografií</a>, <a href="http://webumenia.sk/web/guest/painting/-/staticresults?orderBy=RELEVANCE&page=1&items=28&query=&layout=gridLayout&images=true&searchFor=data" target="blank">maľbami</a>, alebo <a href="http://dvekrajiny.sng.sk/katalog" target="_blank">obrazmi Slovenska z výstavy Dve krajiny</a>.</p>
                         <p>Svoje príspevky môžete prostredníctvom formulára posielať do <strong>16.11.2014</strong>, autorov najzaujímavejších z nich budeme následne kontaktovať.</p>

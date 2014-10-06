@@ -16,14 +16,14 @@ body {background:#fff;font: 14px 'OpenSans', sans-serif;color: #555;text-renderi
 .preloader {position: fixed;width: 100%;z-index: 99999999999999;background-color: #fff;height: 100%;}
 
 /*button*/
-a.button {cursor:pointer;color:#fff;position:relative;display:inline-block;font-weight:400;text-decoration:none;text-align:center;display:block;font-size:13px;background-color:#007fc5;height:20px;padding:11px 10px 9px 10px;max-width:300px;border:0;font-weight: bold !important; font-family:"Tahoma";-webkit-transition: background-color 0.4s ease;-moz-transition: background-color 0.5s ease;-ms-transition: background-color 0.5s ease;-o-transition: background-color 0.5s ease;transition: background-color 0.5s ease;}
+a.button {cursor:pointer;color:#fff;position:relative;display:inline-block;font-weight:400;text-decoration:none;text-align:center;display:block;font-size:13px;background-color:#007fc5;height:20px;padding:11px 10px 9px 10px;max-width:300px;border:0;font-weight: bold !important; font-family:"FugueSNG";-webkit-transition: background-color 0.4s ease;-moz-transition: background-color 0.5s ease;-ms-transition: background-color 0.5s ease;-o-transition: background-color 0.5s ease;transition: background-color 0.5s ease;}
 a.button:hover {text-decoration: none;  background-color: #003d6b!important;/* Old browsers */
  -webkit-transition: background-color 0.4s ease;-moz-transition: background-color 0.5s ease;-ms-transition: background-color 0.5s ease;-o-transition: background-color 0.5s ease;transition: background-color 0.5s ease;color:#fff;}
 
 /*==========================================================================
 TYPOGRAPHY
 ========================================================================== */
-h1, h2, h3, h4 , h5 , h6, .example-title{color: #111;font-weight:bold;font-weight: bold !important; font-family:"Tahoma";margin-bottom:5px;}
+h1, h2, h3, h4 , h5 , h6, .example-title{color: #111;font-weight:bold;font-weight: bold !important; font-family:"FugueSNG";margin-bottom:5px;}
 h1 {font-size: 50px;line-height: 58px;color: #111;}
 h2 {font-size: 36px;line-height: 44px;}
 h3 {font-size: 28px;line-height: 36px;}
@@ -78,7 +78,7 @@ footer a:hover {color: #ccc;}
 /*About*/
 .example-container{padding:5px 0; clear: both;}
 .example-icon{width:64px;height:64px;float:left;margin-right:10px;}
-.example-title{font-weight:700;font-weight: bold !important; font-family:"Tahoma";}
+.example-title{font-weight:700;font-weight: bold !important; font-family:"FugueSNG";}
 
 
 /*Example image zoom*/
