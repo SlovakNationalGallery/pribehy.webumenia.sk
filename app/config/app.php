@@ -188,4 +188,6 @@ return array(
 
 	),
 
+	'fontdeck_id' => 'your_id',
+
 );
