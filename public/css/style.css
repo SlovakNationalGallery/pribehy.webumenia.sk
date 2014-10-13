@@ -150,3 +150,6 @@ OTHER
 #logo:hover svg path {
 	fill: #007fc5;
 }
+
+.shareon-container{margin:0px;  text-align: center; width: 100%; vertical-align: top;}
+.fb-like {height:20px; vertical-align: top;}

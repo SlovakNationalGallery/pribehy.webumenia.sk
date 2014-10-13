@@ -91,7 +91,16 @@
 </head>
 
 <body>
-    
+
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=1429726730641216&version=v2.0";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+
     <!-- START OF DIV -->  
     <div class="page" >
             
@@ -116,6 +125,11 @@
                         <p>
                         Môžete sa inšpirovať napríklad zbierkou <a href="http://webumenia.sk/web/guest/photo/-/staticresults?orderBy=RELEVANCE&page=1&items=28&query=&layout=gridLayout&images=true&searchFor=data" target="blank">fotografií</a> alebo <a href="http://webumenia.sk/web/guest/painting/-/staticresults?orderBy=RELEVANCE&page=1&items=28&query=&layout=gridLayout&images=true&searchFor=data" target="blank">malieb</a>.</p>
                         <p>Svoje príspevky môžete prostredníctvom formulára posielať do <strong>16.11.2014</strong>, autorov najzaujímavejších z nich budeme následne kontaktovať.</p>
+                        <div class="shareon-container text-right">
+                            <div class="fb-like" data-href="http://pribehy.webumenia.sk/" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div>
+                            &nbsp;
+                            <a href="https://twitter.com/share" class="twitter-share-button" data-count="true">Tweet</a><script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+                        </div>
                     </div>
                     <div class="about-video eight columns">
                         <iframe src="//www.youtube.com/embed/QW6k75u0oWA?autohide=1&showinfo=0&rel=0&theme=light&vq=hd720" class="video-embed" allowfullscreen></iframe> 
