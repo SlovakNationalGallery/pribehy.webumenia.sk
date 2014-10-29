@@ -132,31 +132,46 @@
                         </div>
                     </div>
                     <div class="about-video eight columns">
-                        <iframe src="//www.youtube.com/embed/QW6k75u0oWA?autohide=1&showinfo=0&rel=0&theme=light&vq=hd720" class="video-embed" allowfullscreen></iframe> 
+                        <div class="video-container">
+                            <iframe src="//www.youtube.com/embed/QW6k75u0oWA?autohide=1&showinfo=0&rel=0&theme=light&vq=hd720"  allowfullscreen></iframe>
+                        </div>
                     </div>
 
                     <div class="clear"></div>
 
                     <hr class="dividerline"/>
-                    
-                    <!-- ABOUT - example -->
-                    <div class="eight columns examples">
-                        <h5>Diela vo videu</h5>
-                        <p>&nbsp;</p>
-                        @foreach ($examples as $example)
-                        <div class="example-container">
-                            <div class="example-icon">
-                                <a href="/img/thumbs/orig/{{{ $example['img'] }}}.jpg" class="magnific-popup" title="{{{ $example['name'] }}}" data-source="{{{ $example['url'] }}}" >
-                                    <span class="zoom"></span>
-                                    <img src="/img/thumbs/{{{ $example['img'] }}}.jpg" alt="example"/>
-                                </a>
-                            </div>
-                            <span class="example-title">{{{ $example['name'] }}}</span>
-                            <p><a href="{{{ $example['url'] }}}" target="_blank">viac info na webumenia</a></p>
-                        </div>
-                        @endforeach
 
+                    <!-- ABOUT - example -->
+                    <div class="sixteen columns examples">
+                        <h5>Diela vo videu</h5>
+                    </div>
+
+                    <ul class="grid cs-style-3">
+                    @foreach ($examples as $example)
+                    
+                         <a href="/img/thumbs/orig/{{{ $example['img'] }}}.jpg" class="magnific-popup" title="{{{ $example['name'] }}}" data-source="{{{ $example['url'] }}}" >
+                            <li class="four columns painting ">
+                                <figure>
+                                    <img src="/img/thumbs/{{{ $example['img'] }}}.jpg" alt="{{{ $example['author'] . ' - ' . $example['name'] }}}"/>
+                                    <figcaption>
+                                        <h5 class="white">{{{ $example['author'] }}}</h5>
+                                        <span>{{{ $example['name'] }}}</span>                                   
+                                    </figcaption>
+                                </figure>
+                            </li>
+                        </a>
+                    @endforeach
+                    </ul>
+
+                    <div class="sixteen columns examples">
                         <p style="margin-top: 30px"><a href="http://www.webumenia.sk" target="_blank" class="button" style="margin:0 auto;" >ďaľších 18 497 diel na webe umenia</a></p>
+                    </div>
+
+                    <hr class="dividerline"/>
+
+                    <div class="fb-container eight columns" id="post">
+                        <div id="fb-root"></div> <script>(function(d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (d.getElementById(id)) return; js = d.createElement(s); js.id = id; js.src = "//connect.facebook.net/en_US/all.js#xfbml=1"; fjs.parentNode.insertBefore(js, fjs); }(document, 'script', 'facebook-jssdk'));</script>
+<div class="fb-post" data-href="https://www.facebook.com/media/set/?set=a.853803391330503.1073741827.464283703615809&amp;type=1" data-width="466"><div class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/media/set/?set=a.853803391330503.1073741827.464283703615809&amp;type=1">Post</a> by <a href="https://www.facebook.com/webumenia.sk">Web umenia</a>.</div></div> 
                     </div>
 
                     <div id="surveyMonkeyInfo" class="eight columns">
@@ -201,6 +216,7 @@
 
     <!-- Retina Display -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> 
+    <script src="js/autoresizeFbPost.js"></script>
     <script src="js/retina.js"></script>
 
     <!-- magnific-popup  -->
@@ -217,7 +233,7 @@
                 // $("#sm_e_s").css('height', iheight);
             });            
             
-            $('.examples').magnificPopup({
+            $('.grid').magnificPopup({
               delegate: '.magnific-popup',
               type: 'image',
               closeOnContentClick: false,
@@ -243,6 +259,7 @@
               }
             });
 
+            $('#post').autoResizeFbPost();
         });
     </script>
 

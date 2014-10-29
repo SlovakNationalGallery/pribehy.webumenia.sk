@@ -15,22 +15,26 @@ Route::get('/', function()
 {
 	$examples = [
 		[
-			'name'=>'Ján Cifra - Národopisné slávnosti (1956)',
+			'author'=>'Ján Cifra',
+			'name' => 'Národopisné slávnosti (1956)',
 			'img'=>'SVK.SNG.UP-DK_1426-10',
 			'url'=>'http://webumenia.sk/web/guest/detail/-/detail/id/SVK:SNG.UP-DK_1426-10/Ján%20Cifra',
 		],
 		[
-			'name'=>'Štefan Bednár - Podhradské nábrežie (1946-1947)',
+			'author'=>'Štefan Bednár',
+			'name' => 'Podhradské nábrežie (1946-1947)',
 			'img'=>'SVK.SNG.O_12',
 			'url'=>'http://webumenia.sk/web/guest/detail/-/detail/id/SVK:SNG.O_12/Štefan%20Bednár',
 		],
 		[
-			'name'=>'Andrej Doboš - Partizánka Maťuchová (1954)',
+			'author'=>'Andrej Doboš',
+			'name' => 'Partizánka Maťuchová (1954)',
 			'img'=>'SVK.SNG.O_1195',
 			'url'=>'http://webumenia.sk/web/guest/detail/-/detail/id/SVK:SNG.O_1195/Andrej%20Doboš',
 		],
 		[
-			'name'=>'Eduard Pavlačka - Generácia (1965)',
+			'author'=>'Eduard Pavlačka',
+			'name' => 'Generácia (1965)',
 			'img'=>'SVK.SNG.UP-DK_1731',
 			'url'=>'http://webumenia.sk/web/guest/detail/-/detail/id/SVK:SNG.UP-DK_1731/Eduard%20Pavlačka',
 		],

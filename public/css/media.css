@@ -16,7 +16,7 @@ footer .footer-border{border-top: dotted 1px #ccc;height:1px;width:100%;margin-t
 footer .copyright p{font-size:12px;}
 footer .footer-inside{text-align:center;padding:0px 0px 0px 0px;}
 .smallsection-textwithbutton {padding:25px 0px;}
-
+}
 
 @media only screen and (max-width: 767px) {
 h1 {font-size: 46px;line-height: 54px;color: #111;}
@@ -37,6 +37,10 @@ footer .social-footer{text-align:center;margin:0 auto;}
 footer .footer-inside{text-align:center;padding: 30px 0px 0px 0px;}
 footer .footer-inside.end{text-align:center;padding: 0px 0px 10px 0px;}
 .quote{padding-top:25px;}
+
+.painting{padding-bottom:20px !important;}
+.painting img{width: 100% !important; height: auto;}
+
 }
 
 @media only screen and (max-width: 479px) {
@@ -50,4 +54,5 @@ hr.dividerline {width: 280px;margin:10px 10px 20px 10px;}
 blockquote {width: 280px; margin: 0 auto;}
 .quote{margin-top:0px;padding-top:15px;}
 footer .copyright{text-align:center;min-height:48px;}
+
 }
